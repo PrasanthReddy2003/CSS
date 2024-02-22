@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        div{
+            padding:10px;
+        }
+
+        div:nth-child(2){
+            position:relative;
+            top:0px;
+        }
+        
+        .c2{
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div style="border: 2px solid blue">one</div>
+
+    <div style="border: 2px solid goldenrod">Two
+        <div class="c2">2.1</div>
+        <div class="c2">2.2</div>
+        <div class="c2">2.3</div>
+    </div>
+
+    <div style="border: 2px solid red">Three</div>
+
+    <div style="border: 2px solid green">Four</div>
+</body>
+</html>

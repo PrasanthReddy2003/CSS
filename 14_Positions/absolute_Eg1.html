@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Absolute Position</title>
+    <style>
+        div{
+            border:2px solid blue;
+            padding:10px;
+            background-color: aqua;
+        }
+
+        div:nth-child(2){
+            position:relative;
+            background-color: aliceblue;
+            top:-10px;
+
+            top:10px;
+            right:30px ;
+            left: 20px;
+            bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Relative will be block level only. -->
+
+    <div>Java</div>
+    <div>Python</div>
+    <div>JavaScript</div>
+    <div>C#</div>
+
+</body>
+</html>

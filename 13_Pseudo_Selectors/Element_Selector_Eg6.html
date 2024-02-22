@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pseudo Element selector</title>
+    <style>
+        div, p:first-child{
+            border:2px solid blue;
+            padding:10px;
+            margin:10px
+        }
+
+        div p::selection{
+            background-color: salmon;
+        }
+
+        p::first-letter{
+            font-size: 100px;
+        }
+
+        p::before{
+            content:"###";
+        }
+
+        p::after{
+            content:"!!!";
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Software is a set of instructions, data or programs used to operate computers and execute specific tasks.</p>
+        <p>Software is a set of instructions, data or programs used to operate computers and execute specific tasks.</p>
+        <p>Software is a set of instructions, data or programs used to operate computers and execute specific tasks.</p>
+        <p>Software is a set of instructions, data or programs used to operate computers and execute specific tasks.</p>
+        <p>Software is a set of instructions, data or programs used to operate computers and execute specific tasks.</p>
+    </div>
+</body>
+</html>
