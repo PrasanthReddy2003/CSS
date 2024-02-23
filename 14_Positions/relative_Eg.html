@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Absolute Position</title>
+    <style>
+        div{
+            border:2px solid blue;
+            padding:10px;
+            background-color: aqua;
+        }
+
+        div:first-child{
+            position:absolute;
+            background-color: aliceblue;
+            top:200px;
+            right:200px ;
+            left: 200px;
+            bottom: 300px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Absolute will convert block level to inline, top, bottom, left, right-->
+
+    <div>Java</div>
+    <div>Python</div>
+    <div>JavaScript</div>
+    <div>C#</div>
+
+</body>
+</html>
