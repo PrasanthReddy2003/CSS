@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        main,div{
+            margin:10px;
+            padding:10px;
+            display:flex;
+            flex:1;
+            background-color: aqua;
+        }
+
+        div:nth-child(1){
+            flex:10;
+        }
+        
+        body{
+            font-family: arial;
+        }
+
+        .services{
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .logo{
+            color: rgb(249, 4, 53);
+            font-size: 30px;
+        }
+
+        .button{
+            background-color:rgb(214, 16, 142);
+            height: 40px;
+            border-radius: 30px;
+            border-color: gold;
+            width: 150px;
+            text-align: center;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <!--Header Area-->
+    <main>
+        <div class="logo">Smart Developers</div>
+        <div class="services"><span><a href="">Product</a></span></div>
+        <div class="services"><span><a href="">Solutions</a></span></div>
+        <div class="services"><span><a href="">Services</a></span></div>
+        <div class="services"><span><a href="">Pricing</a></span></div>
+
+        <div>
+            <span><input value="Start Now" class="button"></span>
+        </div>
+    </main>
+</body>
+</html>
