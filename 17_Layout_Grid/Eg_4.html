@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        section, div{
+            border:2px solid aqua;
+            padding:20px;
+            margin-bottom: 15px;
+            display: grid;
+            column-gap: 5px;
+            grid-template-rows: 250px;
+            /*                     1  */
+            grid-template-columns: 25%  25%  25%  25%    ;
+            /*                       1    2    3    4  */
+        }
+        .heading{
+            display:grid;
+            grid-template-rows: 80px;
+        }
+        .footer{
+            display: grid;
+            grid-template-rows: 80px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="heading">
+                <h1>SOFTWARE DEVELOPMENT</h1>
+            </div>
+        </nav>
+    </header>
+
+    <!--section one-->
+    <section>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+
+    <!--section two-->
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </section>
+
+    <!--footer-->
+    <footer>
+        <div class="footer">
+            <h3>SOFTWARE DEVELOPMENT</h3>
+        </div>
+    </footer>
+</body>
+</html>
