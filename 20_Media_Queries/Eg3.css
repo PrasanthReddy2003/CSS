@@ -1,0 +1,20 @@
+.container{
+    display:grid;
+    background-color: black;
+}
+
+.item{
+    border: 2px solid;
+    padding:10px;
+    text-align: center;
+    height: 250px;
+}
+
+@media screen and (min-width:375px) and (max-width:667px){
+    .container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+

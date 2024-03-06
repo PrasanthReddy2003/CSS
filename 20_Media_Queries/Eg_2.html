@@ -4,24 +4,22 @@
     <title>Document</title>
     <style>
         div{
-            background-color: chartreuse;
-            color: red;
             padding:20px;
             margin-bottom: 10px;
         }
-        @media only screen and (max-width:800px){
-            div{
-                background-color: blue;
+        @media (orientation:landscape){
+            body{
+                color:crimson;
             }
         }
-        @media only screen and (max-width:700px){
-            div{
-                background-color:rgb(0, 255, 251);
+        @media (orientation:portrait){
+            body{
+                color:blue;
             }
         }
-        @media only screen and (max-width:600px){
-            div{
-                background-color: rgb(255, 0, 242);
+        @media (max-width:500px){
+            body{
+                color:black;
             }
         }
     </style>
